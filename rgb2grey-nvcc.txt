@@ -1,0 +1,1 @@
+nvcc -o rgb mycudareg2gray.cu `pkg-config opencv --libs --cflags`
